@@ -1,56 +1,93 @@
 # Student Enrollment Form using JsonPowerDB
 
-## Description
+## Table of Contents
 
-The Student Enrollment Form is a web-based application developed using HTML, CSS, JavaScript, Bootstrap, and JsonPowerDB (JPDB). The application allows users to store, retrieve, and update student information in a database through a user-friendly interface.
-
-The project demonstrates the integration of JsonPowerDB with a web application and implements CRUD (Create, Read, Update, and Reset) operations. Student records are maintained in the `STUDENT-TABLE` relation of the `SCHOOL-DB` database, with `Roll-No` serving as the primary key.
-
----
-
-## Benefits of Using JsonPowerDB
-
-* High-performance and lightweight database.
-* Simple REST API-based architecture.
-* Serverless development support.
-* Easy integration with web applications.
-* Fast CRUD operations.
-* Schema-free JSON database.
-* Real-time data processing.
-* Reduced development time.
+* Description
+* Benefits of Using JsonPowerDB
+* Scope of Functionalities
+* Technology Stack
+* Database Details
+* Illustrations
+* Examples of Use
+* Release History
+* Project Status
+* Sources
+* Author
 
 ---
 
-## Features
+# Description
 
-* Add new student records.
-* Retrieve student details using Roll Number.
-* Update existing student information.
-* Reset form fields.
-* Input validation for all fields.
-* Responsive user interface using Bootstrap.
-* JsonPowerDB integration for data storage.
+The Student Enrollment Form is a web-based application developed using HTML, CSS, JavaScript, Bootstrap, AJAX, and JsonPowerDB (JPDB). The application enables users to store, retrieve, and update student information through a responsive and user-friendly interface.
+
+Student records are maintained in the `STUDENT-TABLE` relation of the `SCHOOL-DB` database. The application demonstrates the practical implementation of CRUD operations using JsonPowerDB APIs and form validation techniques.
+
+The Roll Number acts as the primary key for identifying each student record uniquely.
 
 ---
 
-## Technology Stack
+# Benefits of Using JsonPowerDB
+
+* High Performance Database
+* Lightweight and Fast
+* REST API Based Architecture
+* Serverless Development Support
+* Schema-Free JSON Database
+* Easy Integration with Web Applications
+* Reduced Development Time
+* Real-Time Data Processing
+* Multi-Mode Database Management System
+* Simplified CRUD Operations
+
+---
+
+# Scope of Functionalities
+
+The project provides the following functionalities:
+
+* Add New Student Records
+* Retrieve Existing Student Information
+* Update Student Details
+* Reset Form Data
+* Validate User Inputs
+* Responsive User Interface
+* Database Connectivity Using JsonPowerDB
+
+---
+
+# Technology Stack
+
+## Frontend
 
 * HTML5
 * CSS3
-* JavaScript
 * Bootstrap 5
+* JavaScript
+
+## Database
+
 * JsonPowerDB (JPDB)
+
+## Communication
+
 * AJAX
+* REST APIs
 
 ---
 
-## Database Details
+# Database Details
 
-**Database Name:** SCHOOL-DB
+### Database Name
 
-**Relation Name:** STUDENT-TABLE
+SCHOOL-DB
 
-**Primary Key:** Roll-No
+### Relation Name
+
+STUDENT-TABLE
+
+### Primary Key
+
+Roll-No
 
 ### Input Fields
 
@@ -63,80 +100,78 @@ The project demonstrates the integration of JsonPowerDB with a web application a
 
 ---
 
-## Project Structure
+# Illustrations
 
-```text
-Student-Enrollment-Form-JPDB/
-│
-├── index.html
-├── student.js
-├── style.css
-├── README.md
-└── screenshots/
-    ├── form-home.png
-    └── form-filled.png
-```
+## Home Page
+
+![Home Page](screenshots/form-home.png)
+
+## Filled Form
+
+![Filled Form](screenshots/form-filled.png)
 
 ---
 
-## Screenshots
+# Examples of Use
 
-### Home Page
+### Example Student Record
 
-Displays the Student Enrollment Form with empty fields ready for data entry.
-
-### Filled Form
-
-Displays sample student information entered into the form.
-
----
-
-## Release History
-
-### Version 1.0
-
-* Created Student Enrollment Form.
-* Added Bootstrap-based responsive UI.
-* Implemented form validation.
-* Integrated JsonPowerDB operations.
-* Added Save, Update, and Reset functionality.
-* Published project on GitHub.
+| Field           | Value          |
+| --------------- | -------------- |
+| Roll-No         | 101            |
+| Full-Name       | KATTA KAMALI   |
+| Class           | CSE-II         |
+| Birth-Date      | 01/11/2006     |
+| Address         | Andhra Pradesh |
+| Enrollment-Date | 08/06/2026     |
 
 ---
 
-## Future Enhancements
+# Release History
 
-* Delete record functionality.
-* Search records by student name.
-* Dashboard for student analytics.
-* Advanced validation and error handling.
-* Export data to CSV/PDF.
+## Version 1.0 (June 2026)
 
----
+### Features Added
 
-## Skills Demonstrated
-
-* Frontend Web Development
-* Database Integration
-* REST API Usage
-* CRUD Operations
-* Form Validation
-* AJAX Programming
-* JSON Data Handling
-* Bootstrap UI Design
+* Student Enrollment Form Created
+* Bootstrap Based UI Implemented
+* Form Validation Added
+* Save Functionality Implemented
+* Update Functionality Implemented
+* Reset Functionality Implemented
+* JsonPowerDB Integration Configured
+* Project Published on GitHub
 
 ---
 
-## Author
+# Project Status
+
+Project Completed and Submitted as a Micro Project for the JsonPowerDB Beginner Certification Program.
+
+---
+
+# Sources
+
+* JsonPowerDB Documentation
+* Login2Xplore Learning Portal
+* Bootstrap Documentation
+* JavaScript Documentation
+* GitHub Documentation
+
+---
+
+# Author
 
 **Kamali Katta**
 
-B.Tech – Computer Science and Engineering
+B.Tech Computer Science and Engineering
 
 SRM University AP
 
+GitHub: https://github.com/Kamali0111/Student-Enrollment-Form-JPDB/
+
 ---
 
-## Project Status
+# Other Information
 
-Completed and submitted as a Micro Project for the JsonPowerDB Beginner Certification Program.
+This project was developed as part of the JsonPowerDB Beginner Certification Program to understand database connectivity, CRUD operations, AJAX communication, and modern web application development practices using JsonPowerDB.
